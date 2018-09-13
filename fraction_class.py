@@ -28,5 +28,12 @@ class Fraction:
 
 		return firstnum==secondnum
 
+	def getNum(self):
+		return str(self.num)
+
+	def getDen(self):
+		return str(self.den)
+
+
 myfraction = Fraction(3,5)
 otherfraction = Fraction(1,5)
